@@ -1,0 +1,73 @@
+body {
+
+}
+:root {
+    --Color1:hsl(322, 100%, 66%);
+    --Color2:hsl(193, 100%, 96%);
+    --Color3:hsl(192, 100%, 9%);
+    --Color4:hsl(208, 11%, 55%);
+
+}
+.free {
+    border-radius: 40px !important;
+    border-color: transparent !important;
+    color: black;
+    width: 200px;
+    font-weight: bold;
+    background-color: white;
+    transition: 0.3s;
+}
+.free:hover {
+    border-radius: 40px !important;
+    border-color: transparent !important;
+    color: var(--Color4);
+    width: 200px;
+    font-weight: bold;
+    background-color: white;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+header {
+    background-image: url(/images/bg-hero-desktop.svg);
+    background-color: var(--Color2);
+    /* height: 100vh; */
+}
+p {
+    font-size: 18px;
+}
+.start {
+    border-radius: 40px !important;
+    border-color: transparent !important;
+    color: white;
+    width: 50%;
+    font-weight: bold;
+    background-color: var(--Color1);
+    transition: 0.3s;
+}
+.start:hover {
+    border-radius: 40px !important;
+    border-color: transparent !important;
+    opacity: 0.7;
+    transition: 0.3s;
+    background-color: var(--Color1);
+    font-weight: bold;
+}
+footer {
+    background-color: var(--Color3);
+    position: relative;
+}
+.icon {
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items:center
+}
+.foot {
+    font-size: 12px !important;
+    color: white;
+    position: absolute;
+    bottom: 2px;
+}
